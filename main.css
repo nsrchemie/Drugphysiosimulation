@@ -11,3 +11,18 @@ section {
 body {
 	background-color: #4682B4;
 }
+
+article {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+}
+.heart-graph {
+	height:300px;
+	width:600px;
+	background-color: blue;
+	position:relative;
+	padding:32px;
+}
+
