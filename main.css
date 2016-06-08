@@ -24,6 +24,7 @@ article {
 	background-color: #2C001E;
 	position:relative;
 	padding:32px;
+	left:32%;
 }
 .heart-graph::before{
 	content:'';
