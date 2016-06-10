@@ -46,17 +46,17 @@ article {
 }
 
 .cls-1 {
-		fill:none;
+		fill:#abedd8;
 		stroke: #abedd8;
 		stroke-miterlimit:10;
-		stroke-width:2px;
+		stroke-width:1px;
 
 	}
 
 svg {
 	position:absolute;
 	left:32px;
-/*	top:70px;*/
+	top:110px;
 	width:540px;
 
 }
