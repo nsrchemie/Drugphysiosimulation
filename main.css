@@ -20,11 +20,11 @@ article {
 }
 .heart-graph {
 	height:300px;
-	width:600px;
+	width:508px;
 	background-color: #2C001E;
 	position:relative;
 	padding:32px;
-	left:32%;
+	margin: 0 auto;
 }
 .heart-graph::before{
 	content:'';
@@ -41,7 +41,7 @@ article {
 	left:30px;
 	bottom:30px;
 	height:2px;
-	width:600px;
+	width:510px;
 	background: #4682B4
 }
 
