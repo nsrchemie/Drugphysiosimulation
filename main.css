@@ -30,8 +30,8 @@ article {
 	content:'';
 	position: absolute;
 	left:30px;
-	top:30px;
-	height:303px;
+	top:20px;
+	height:250px;
 	width:2px;
 	background: #4682B4
 }
@@ -41,7 +41,7 @@ article {
 	left:30px;
 	bottom:30px;
 	height:2px;
-	width:510px;
+	width:450px;
 	background: #4682B4
 }
 
@@ -57,12 +57,12 @@ svg {
 	position:absolute;
 	left:32px;
 	top:70px;
-	width:540px;
+	width:484px;
 
 }
 
 button {
-	display:block;
+	display:block !important;
 }
 
 
