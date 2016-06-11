@@ -17,12 +17,13 @@ article {
 	display:-ms-flexbox;
 	display:-webkit-flex;
 	display:flex;
+	padding-left: 28%;
 }
 .heart-graph {
 	height:300px;
 	width:508px;
 	background-color: #2C001E;
-	position:relative;
+	position:absolute;
 	padding:32px;
 	margin: 0 auto;
 }
@@ -63,6 +64,10 @@ svg {
 
 button {
 	display:block !important;
+}
+
+.buttons {
+	position:relative;
 }
 
 
