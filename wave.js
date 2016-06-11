@@ -10,24 +10,34 @@ $(document).ready(function() {
 			if (this.id == 'normal'){
 				svg.attr('d', rest);
 				$('#myLoop').attr('dur',2);
+
 			}
 			else if (this.id == 'fast'){
 				svg.attr('d', fast);
 				$('#myLoop').attr('dur',1);
+
 			}
 			else if (this.id == 'slow'){
 				svg.attr('d', slow);
 				$('#myLoop').attr('dur',2.7);
+
 			}
 			else if (this.id == 'tdp'){
 				svg.attr('d', tdp);
 				$('#myLoop').attr('dur',.6);
+
 			}
 			else if (this.id == 'fdg'){
 				svg.attr('d', fdg);
 				$('#myLoop').attr('dur',2.4);
-				// svg.css('stroke-width', '2px');
 			}
+			if (this.id == 'fdg') {
+				svg.css('stroke-width', '2px');
+			}
+			else {
+				svg.css('stroke-width', '1px');
+			}
+
 			});
 
 });
