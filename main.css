@@ -70,5 +70,8 @@ button {
 	position:relative;
 }
 
-
-
+.bpm {
+	text-align: right;
+	font-size: 40px;
+	color:#abedd8;
+}
